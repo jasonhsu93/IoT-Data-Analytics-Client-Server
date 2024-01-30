@@ -20,11 +20,16 @@ Developed and implemented a robust testing system ensuring up to 95% branch cove
 Tasks and Implementation:
 
 Task 1A & 1B (Entities, Events, Clients, and Requests): Focused on developing data types/classes for sensors, actuators, their events, client interactions, and requests handling. This included creating random simulation metrics for various entity types like TempSensor, PressureSensor, and Switches.
+
 Task 2 (Providing Services to Clients): Built capabilities to handle various events from clients, offering control and analytics services like setActuatorStateIf, toggleActuatorStateIf, and logIF.
+
 Task 3 (Handling Concurrent Clients): Enhanced the server to serve multiple clients concurrently, ensuring isolated handling of events and requests for each client to minimize Quality of Service (QoS) violations.
+
 Task 4 (Prediction Services): Added prediction capabilities to the server, such as predictNextNTimeStamps and predictNextNValues, with a focus on forecasting both double and binary values accurately.
+
 Task 5 (AWS Lambda Integration): Integrated AWS Lambda for handling excess load, particularly focusing on computational-heavy prediction services.
 Testing Methodology:
+
 Employed a combination of unit testing, trace-driven functional testing, and deployment integration testing to ensure the robustness and reliability of the server.
 
 Outcomes and Skills Gained:
