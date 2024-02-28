@@ -17,7 +17,7 @@ Team Collaboration:
 
 Worked within a three-person team, leveraging collaborative skills in a complex project environment.
 Developed and implemented a robust testing system ensuring up to 95% branch coverage, validating network functionalities effectively.
-Tasks and Implementation:
+Implementation:
 
 (Entities, Events, Clients, and Requests): Focused on developing data types/classes for sensors, actuators, their events, client interactions, and requests handling. This included creating random simulation metrics for various entity types like TempSensor, PressureSensor, and Switches.
 
